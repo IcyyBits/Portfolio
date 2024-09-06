@@ -1,0 +1,148 @@
+body {
+    color: white;
+    background-color: white;
+    font-family: Arial, Sans-Serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+#aboutMe {
+    text-align: center;
+}
+
+#topPart {
+    width: 100%;
+    color: white;
+    background-color: #FFA154;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 150px;
+}
+
+#abouts {
+    width: 100%;
+    color: black;
+    background-color: white;
+    position: fixed;
+    top: 150px;
+    left: 0;
+    height: 150px;
+    text-align: center;
+}
+
+.strList {
+    position: fixed;
+    left: 10px;
+    text-align: left;
+}
+
+.strDiv {
+    width: 100%;
+    color: black;
+    background-color: #D1FF82;
+    position: fixed;
+    top: 300px;
+    left: 0;
+    height: 180px;
+    text-align: center;
+}
+
+.weaknessDiv {
+    width: 100%;
+    color: black;
+    background-color: #ED5353;
+    position: fixed;
+    top: 480px;
+    left: 0;
+    height: 180px;
+    text-align: center;
+}
+
+.weakList {
+    position: fixed;
+    left: 10px;
+    text-align: left;
+}
+/*test here*/
+
+.popup {
+    width: 300px;
+    height: 400;
+    padding: 20px;
+    background-color: #fff;
+    border: 2px solid #333;
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -100%);
+    opacity: 0;
+    transition: transform 0.6s ease, opacity 0.6s ease;
+    box-shadow: 2px 10px 15px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    visibility: hidden;
+    color: black;
+    border-radius: 10px;
+}
+
+.popup.show {
+    transform: translate(-50%, 20%);
+    opacity: 1;
+    visibility: visible;
+}
+
+#closeBtn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#triggerElement {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    width: fit-content;
+    position: fixed;
+    bottom: 10px;
+}
+
+.bottom {
+    position: fixed;
+    color: white;
+    background-color: #D4D4D4;
+    top: 660px;
+    left: 0px;
+    height: 140px;
+    width: 100%;
+    z-index: -1;
+}
+
+.contact {
+    position: fixed;
+    top: 670px;
+    left: 10px;
+    height: 40px;
+    width: 40px;
+    z-index: 1;
+}
+
+.discord {
+    position: fixed;
+    bottom: 10px;
+    left: 5px;
+    height: 40px;
+    width: 40px;
+}
+
+.copyright {
+    position: fixed;
+    bottom: 10px;
+    text-align: center;
+    width: 100%;
+}
