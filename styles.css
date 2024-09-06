@@ -55,9 +55,9 @@ h3 {
     color: black;
     background-color: #ED5353;
     position: fixed;
-    top: 480px;
+    top: 510px;
     left: 0;
-    height: 180px;
+    height: 210px;
     text-align: center;
 }
 
@@ -125,7 +125,7 @@ h3 {
 
 .contact {
     position: fixed;
-    top: 670px;
+    top: 740px;
     left: 10px;
     height: 40px;
     width: 40px;
